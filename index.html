@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"/>
+    <title>netflix_clone</title>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-content">
+            <header class="card-header">
+                <p class="title" id="tv">Tv show generator</p>
+            </header>
+            <form id="form">
+                <input type="text" placeholder="Enter the title" name="input" class="input is-danger">
+                <div>
+                    <button type="submit" class="button is-link" >Submit</button>
+                </div>
+            </form>
+            <div id="results"></div>
+        </div>
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
